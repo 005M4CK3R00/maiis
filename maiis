@@ -380,7 +380,7 @@ def pauser(): # maiis password type agan and agan earror start from here
 										elif wrong_password_try ==1:
 											print(read+'Be caire full if you try wrong password agan and agan your system could crash'+end)
 										elif wrong_password_try ==8:
-											print(read+'sorry too many attampts pleas try agan later'+end)
+											print(read+'too many attampts pleas try agan later'+end)
 											break
 											exit()
 				except KeyboardInterrupt:
@@ -1887,7 +1887,7 @@ https:/www.youtube.com/channel/UCW4eaoQE3AaNVmgUm_2kqdg
 					os.system('clear')
 					
 				elif open_app_name ==10:
-					print('print please wait while opening Quick Edit'+end)
+					print(green+' please wait while opening Quick Edit'+end)
 					time.sleep(1)
 					os.system('am start --user 0 -n com.rhmsoft.edit/com.rhmsoft.edit.activity.MainActivity')
 					os.system('clear')
